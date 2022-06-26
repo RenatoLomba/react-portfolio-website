@@ -1,0 +1,90 @@
+{
+  "yourName": "Renato Lomba",
+  "yourRole": "Fullstack Web Developer",
+  "headerSocials": {
+    "linkedin": "https://www.linkedin.com/in/renato-lomba-9321431a6",
+    "github": "https://github.com/RenatoLomba",
+    "dribble": "https://dribbble.com"
+  },
+  "about": {
+    "experienceYears": 3,
+    "clients": 50,
+    "projects": 70,
+    "description": "Saudações, meu nome é Renato! Tenho 21 anos, trabalho na área de Desenvolvimento a mais ou menos 2 anos, atualmente estou trabalhando como Analista Desenvolvedor Fullstack Pleno, focado em soluções utilizando a linguagem Javascript, como as ferramentas NodeJS, React e React Native. Atualmente estou estudando Análise e Desenvolvimento de Sistemas, estou no último semestre do curso, e faço cursos online na área através das plataformas Udemy, Alura e Rocketseat. Meu foco de estudos hoje é em construção e implantação de aplicações em Microserviços e Serverless, utilizando Docker, Kubernetes, e ambiente Cloud da AWS."
+  },
+  "portfolioItems": [
+    {
+      "id": 1,
+      "image": "/assets/portfolio1.jpg",
+      "title": "This is a portfolio title 1",
+      "github": "https://github.com",
+      "demo": "https://dribbble.com/Alien_pixels"
+    },
+    {
+      "id": 2,
+      "image": "/assets/portfolio2.jpg",
+      "title": "This is a portfolio title 2",
+      "github": "https://github.com",
+      "demo": "https://dribbble.com/Alien_pixels"
+    },
+    {
+      "id": 3,
+      "image": "/assets/portfolio3.jpg",
+      "title": "This is a portfolio title 3",
+      "github": "https://github.com",
+      "demo": "https://dribbble.com/Alien_pixels"
+    },
+    {
+      "id": 4,
+      "image": "/assets/portfolio4.jpg",
+      "title": "This is a portfolio title 4",
+      "github": "https://github.com",
+      "demo": "https://dribbble.com/Alien_pixels"
+    },
+    {
+      "id": 5,
+      "image": "/assets/portfolio5.png",
+      "title": "This is a portfolio title 5",
+      "github": "https://github.com",
+      "demo": "https://dribbble.com/Alien_pixels"
+    },
+    {
+      "id": 6,
+      "image": "/assets/portfolio6.jpg",
+      "title": "This is a portfolio title 6",
+      "github": "https://github.com",
+      "demo": "https://dribbble.com/Alien_pixels"
+    }
+  ],
+  "clientsTestimonials": [
+    {
+      "id": 1,
+      "name": "Nancy Frank",
+      "avatar": "/assets/avatar1.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia diam ut lectus mollis, vel condimentum purus auctor. Etiam finibus faucibus euismod. Quisque finibus hendrerit enim in placerat. Curabitur elementum fermentum felis a efficitur."
+    },
+    {
+      "id": 2,
+      "name": "Allen Reeves",
+      "avatar": "/assets/avatar2.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla ultricies gravida. Sed quis tempor odio. Mauris euismod pharetra sem, at pharetra purus commodo in. Integer erat nulla, pharetra a hendrerit id, tempus nec metus. Nullam laoreet ornare massa."
+    },
+    {
+      "id": 3,
+      "name": "Leo Powell",
+      "avatar": "/assets/avatar3.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat risus id tellus faucibus, sit amet mollis velit mollis. Integer gravida lacus eget luctus pellentesque. Suspendisse potenti. Duis accumsan condimentum lorem, eget dapibus orci consequat finibus."
+    },
+    {
+      "id": 4,
+      "name": "Helena Estrada",
+      "avatar": "/assets/avatar4.jpg",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales leo eu erat viverra, sit amet consequat ligula interdum. Duis id mauris egestas metus ullamcorper mollis in sed sapien. Cras a nisi vulputate, ornare urna eget, aliquet velit."
+    }
+  ],
+  "contactOptions": {
+    "email": "rntlomba@gmail.com",
+    "messenger": "renato.lomba.5",
+    "whatsapp": "+55 11 94958-0307"
+  }
+}

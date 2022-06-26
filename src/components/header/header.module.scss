@@ -1,0 +1,76 @@
+.headerContainer {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+
+  & > div {
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem); // Calc to center (50% - <half width value>)
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scrollDown {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.headerSocials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+
+  &::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .headerContainer {
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    padding-top: 4rem;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerSocials,
+  .scrollDown {
+    display: none;
+  }
+}
